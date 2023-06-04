@@ -1,0 +1,59 @@
+/* main navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.8rem 3.2rem;
+}
+
+/* navigation buttons */
+.nav__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* navigation links */
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(240, 248, 255, 0.873);
+  font-size: 1.2rem;
+}
+
+nav span {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2.4rem;
+  cursor: pointer;
+  letter-spacing: -0.5px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+nav span:hover {
+  color: crimson;
+
+  transition: opacity 0.3s ease-in-out;
+}
+nav span:active {
+  color: brown;
+}
+
+/* searchbox */
+.searchBox input {
+  height: 2rem;
+  width: 15rem;
+  padding: 0 0.6rem;
+  border: 2px solid white;
+  background-color: #333;
+  opacity: 50%;
+  color: white;
+}
+
+.searchBox input::placeholder {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1rem;
+}
