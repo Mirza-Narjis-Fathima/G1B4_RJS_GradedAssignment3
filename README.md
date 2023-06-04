@@ -20,14 +20,19 @@ EXECUTE EACH FOLDER IN A DIFFERENT TERMINAL
 --------------------------------------------
 LIBRARIES/DEPENDENCIES USED:
   json server:
+  
     npm i json-server        
   react router dom:
+  
     npm i react-router-dom         
   axios: 
+  
     npm i axios    
   bootstrap icons:
+  
     npm i bootstrap-icons   
   react toastify: 
+  
     npm i react-toastify           
 
 ---------------------------------------------
