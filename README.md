@@ -6,11 +6,13 @@ EXECUTE EACH FOLDER IN A DIFFERENT TERMINAL
 'movie-server' FOLDER: 
   server: http://localhost:3001
     npm i
+    
     npm start
 
 'movie-client' FOLDER: 
   server: http://localhost:3000
     npm i
+    
     npm start
 
 --------------------------------------------
